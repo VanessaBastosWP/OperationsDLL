@@ -46,11 +46,14 @@ If you want to know the expected result of the operation, call the function "exp
 
 ***Demo***
 
-To demonstrate the code, a file was made in Python using all possible values, needing to make the following changes:
+To demonstrate the code, a code was made in Python using all possible values in Jupyter-Lab, needing to make the following changes:
 
 - Fix the directory where the downloaded DLL is located
 - Insert the desired operation option
 - Insert the number of bits for that operation
+
+<img src="https://github.com/VanessaBastosWP/OperationsDLL/blob/main/erro_maximo_sign_mag_mac.png" alt="drawing" width="500"/>
+Graph generated for the operation of Sign-Magnitude MAC for 8-bit 
 
 # Technologies used:
 C++ in Visual Studio 2019 IDE with Platform Toolset v142 and ISO C++ 14 Standard / Phyton 3.9 in the Jupyter-Lab IDE.
