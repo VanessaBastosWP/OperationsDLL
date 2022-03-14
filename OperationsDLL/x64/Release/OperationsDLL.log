@@ -1,0 +1,89 @@
+﻿  pch.cpp
+  dllmain.cpp
+  operations.cpp
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(13,30): warning C4273: 'andf': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(9,31): message : consulte a definição anterior de 'andf'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(22,24): warning C4273: 'xorf': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(11,31): message : consulte a definição anterior de 'xorf'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(26,25): warning C4273: 'xnorf': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(13,31): message : consulte a definição anterior de 'xnorf'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(30,23): warning C4273: 'orf': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(15,31): message : consulte a definição anterior de 'orf'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(39,26): warning C4273: 'notorf': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(17,31): message : consulte a definição anterior de 'notorf'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(54,44): warning C4273: 'bin_to_dec_unipolar': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(19,31): message : consulte a definição anterior de 'bin_to_dec_unipolar'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(59,31): warning C4244: '+=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(65,61): warning C4273: 'dec_to_bin_unipolar': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(21,32): message : consulte a definição anterior de 'dec_to_bin_unipolar'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(67,35): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(67,20): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(81,60): warning C4273: 'dec_to_bin_bipolar': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(23,32): message : consulte a definição anterior de 'dec_to_bin_bipolar'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(82,35): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(82,20): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(104,43): warning C4273: 'bin_to_dec_bipolar': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(25,31): message : consulte a definição anterior de 'bin_to_dec_bipolar'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(109,31): warning C4244: '+=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(114,35): warning C4244: '+=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(122,39): warning C4273: 'rng_unipolar': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(27,32): message : consulte a definição anterior de 'rng_unipolar'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(154,36): warning C4273: 'rng_bipolar': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(29,31): message : consulte a definição anterior de 'rng_bipolar'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(207,30): warning C4273: 'sng_uni_bi': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(31,31): message : consulte a definição anterior de 'sng_uni_bi'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(212,47): warning C4273: 'sng_sm': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(33,31): message : consulte a definição anterior de 'sng_sm'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(214,34): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(214,11): warning C4244: '=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(215,34): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(215,11): warning C4244: '=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(224,39): warning C4273: 'inv_step_uni_bi': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(35,31): message : consulte a definição anterior de 'inv_step_uni_bi'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(231,25): warning C4273: 'inv_step_sm': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(37,31): message : consulte a definição anterior de 'inv_step_sm'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(244,40): warning C4273: 'unipolar_dif': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(39,31): message : consulte a definição anterior de 'unipolar_dif'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(263,40): warning C4273: 'unipolar_max': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(41,31): message : consulte a definição anterior de 'unipolar_max'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(282,65): warning C4273: 'unipolar_mean': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(43,31): message : consulte a definição anterior de 'unipolar_mean'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(313,52): warning C4273: 'unipolar_mac': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(45,31): message : consulte a definição anterior de 'unipolar_mac'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(338,49): warning C4273: 'bipolar_dif': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(47,31): message : consulte a definição anterior de 'bipolar_dif'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(346,54): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(347,54): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(357,49): warning C4273: 'bipolar_max': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(49,31): message : consulte a definição anterior de 'bipolar_max'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(359,32): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(359,16): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(366,54): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(367,54): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(377,64): warning C4273: 'bipolar_mean': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(51,31): message : consulte a definição anterior de 'bipolar_mean'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(378,32): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(378,16): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(390,54): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(391,54): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(407,59): warning C4273: 'bipolar_mac': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(53,31): message : consulte a definição anterior de 'bipolar_mac'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(408,21): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(408,11): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(430,53): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(452,59): warning C4273: 'sign_mag_mac': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(55,31): message : consulte a definição anterior de 'sign_mag_mac'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(495,61): warning C4273: 'operation': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(57,31): message : consulte a definição anterior de 'operation'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(530,42): warning C4273: 'scale': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(59,33): message : consulte a definição anterior de 'scale'
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(531,17): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(534,22): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.cpp(540,58): warning C4273: 'expected_value': vínculo de dll inconsistente
+C:\Users\vanes\Desktop\GitHub\OperationsDLL\OperationsDLL\operations.h(61,33): message : consulte a definição anterior de 'expected_value'
+     Criando biblioteca C:\Users\vanes\Desktop\GitHub\OperationsDLL\x64\Release\OperationsDLL.lib e objeto C:\Users\vanes\Desktop\GitHub\OperationsDLL\x64\Release\OperationsDLL.exp
+  Gerando código
+  Previous IPDB not found, fall back to full compilation.
+  All 40 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  OperationsDLL.vcxproj -> C:\Users\vanes\Desktop\GitHub\OperationsDLL\x64\Release\OperationsDLL.dll
