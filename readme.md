@@ -1,40 +1,59 @@
-título // Simulador de Algumas Operações Estocásticas
+# "A Library for Visualization and Emulation of Stochastic Operations in Hardware"
 
-badges // ??
+Stochastic computing provides a low-cost implementation of complex functions, such as neural networks, at the cost of accuracy. There is an evolving exploration of stochastic computing and there are some options when designing a stochastic hardware accelerator, such as the stochastic number representation and the stochastic stream width. In this article, we provide a software framework that enables the error/accuracy visualization of different stochastic configurations. The implementation was tested with some design choices and the results showed the design characteristics in graphics.
 
-Índice // ...
+# Project Status: Completed
 
-Descrição do Projeto // Biblioteca com 9 operações estocásticas com objetivo de simular a implementação em hardware
+# Application Functionality and Demo:
 
-Status do Projeto // Concluído?
+***How to run the code***
 
-Funcionalidade e Demonstração da Aplicação // 
+To run the code, it is necessary to choose one of the following operating options:
 
-***como abrir o codigo***
-
-Para rodar o código, é necessário escolher uma das opções de operação dentre as seguintes: 
 1- Unipolar MAC = unipolar_mac(A, B, seed, bits);
-2- Diferença em módulo Unipolar = unipolar_dif(A, B);
-3- Máximo Unipolar = unipolar_max(A, B);
-4- Média Unipolar = unipolar_mean(A, B, seed, bits);
+
+2- Difference in module Unipolar = unipolar_dif(A, B);
+
+3- Unipolar Maximum = unipolar_max(A, B);
+
+4- Unipolar Mean = unipolar_mean(A, B, seed, bits);
+
 5- Bipolar MAC = bipolar_mac(A, B, seed, bits);
-6- Diferença em módulo Bipolar = bipolar_dif(A, B, bits);
-7- Máximo Bipolar = bipolar_max(A, B, bits);
-8- Média Bipolar = bipolar_mean(A, B, seed, bits);
+
+6- Difference in module Bipolar = bipolar_dif(A, B, bits);
+
+7- Bipolar Maximum = bipolar_max(A, B, bits);
+
+8- Bipolar Mean = bipolar_mean(A, B, seed, bits);
+
 9- Sign-Magnitude MAC = sign_mag_mac(A, B, seed, bits);
 
-Deve-se chamar no main a função operation, passando os seguintes parâmetros: o número da operação(descrito ali em cima), os números A,B,seed convertidos em decimal e o número de bits dos valores (suporte até para 8 bits). Obs.: em algumas operações seed e/ou bits não são necessários.
-Não colocar (2^bit)-1 no valor da seed do unipolar.
-Não colocar 0 no valor da seed do bipolar ou Sign-Magnitude.
-Colocar valores entre 0 e (2^bit)-2 para operações unipolares.
-Colocar valores entre -(2^(bit-1)) e (2^(bit-1))-2 para operações bipolares e de Sign-Magnitude.
-O resultado está exposto em relação ao número de bits, se deseja converter o valor para dentro dos limites [0,1] para unipolar e [-1,1] para bipolar e de sign-magnitude, use a operação scale, passando o mesmo número da operação feita, o resultado obtido dela e o número de bits usados.
-Caso queira saber o resultado esperado da operação, chame a função valor_esperado, passando o número da operação feita (opções escritas ali em cima), o valor de A, de B e o número de bits usados.
 
-Acesso ao projeto // ??
+The function "operation" must be called in main, passing the following parameters: the operation number (described above), A, B, seed (all numbers converted to decimal) and the number of bits of the operation (support up to 8 bits).
 
-Tecnologias utilizadas // Visual Studio 2019 
+Note: in some operations seed and/or bits aren't necessary.
 
-Pessoas Desenvolvedoras do Projeto // Vanessa Bastos da Luz, George de Borba Nardes, Luiz Fernando Heidrich Duarte
+Do not put the value (2^bit)-1 in the unipolar seed value.
 
-Licença // 
+Do not put 0 in the Bipolar or Sign-Magnitude seed value.
+
+For the inputs of A and B, place values between 0 and (2^bit)-2 for unipolar operations.
+
+For the inputs of A and B, place values between -(2^(bit-1)) and (2^(bit-1))-2 for Bipolar and Sign-Magnitude operations.
+
+The result is displayed in relation to the number of bits, if you want to convert the value within the limits [0,1] to unipolar and [-1,1] to bipolar and sign-magnitude, use the operation "scale", passing the same number of the operation performed, the result obtained from it and the number of bits used.
+If you want to know the expected result of the operation, call the function "expected_value", passing the number of the operation performed (options written above), the value of A, B and the number of bits used.
+
+***Demo***
+
+To demonstrate the code, a file was made in Python using all possible values, needing to make the following changes:
+
+- Fix the directory where the downloaded DLL is located
+- Insert the desired operation option
+- Insert the number of bits for that operation
+
+# Technologies used:
+C++ in Visual Studio 2019 IDE with Platform Toolset v142 and ISO C++ 14 Standard / Phyton 3.9 in the Jupyter-Lab IDE.
+
+# Project Developers:
+Vanessa Bastos da Luz, George de Borba Nardes, Luiz Fernando Heidrich Duarte
